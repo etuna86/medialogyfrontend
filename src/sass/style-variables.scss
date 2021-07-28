@@ -1,0 +1,37 @@
+$whiteColor:#ffffff;
+$blackColor:#000000;
+$greyColor:#d2d2d2;
+
+$weightGreyColor:#8D8D8D;
+$canvasColor:#382E47;
+
+
+
+
+@mixin borderRadius($borderval)
+{
+  -webkit-border-radius: $borderval;
+  -moz-border-radius:$borderval ;
+  border-radius:$borderval ;
+
+}
+
+@mixin borderRadiusAll($bordervaltop,$bordervalright,$bordervalbottom,$bordervalleft)
+{
+  -webkit-border-top-left-radius: $bordervaltop;
+  -moz-border-top-left-radius:$bordervaltop ;
+  border-top-left-radius:$bordervaltop ;
+
+  -webkit-border-top-right-radius: $bordervalright;
+  -moz-border-top-right-radius:$bordervalright ;
+  border-top-right-radius:$bordervalright ;
+
+  -webkit-border-bottom-right-radius: $bordervalbottom;
+  -moz-border-bottom-right-radius:$bordervalbottom ;
+  border-bottom-right-radius:$bordervalbottom ;
+
+  -webkit-border-bottom-left-radius: $bordervalleft;
+  -moz-border-bottom-left-radius:$bordervalleft ;
+  border-bottom-left-radius:$bordervalleft ;
+
+}
