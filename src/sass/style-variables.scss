@@ -1,10 +1,14 @@
 $whiteColor:#ffffff;
 $blackColor:#000000;
 $greyColor:#d2d2d2;
-
-$weightGreyColor:#8D8D8D;
+$footerGrey:#E0E0E0;
+$weightGreyColor:#cfcfcb;
 $canvasColor:#382E47;
-
+$filterButtonGrey:#737b7d;
+$bodyHeader:#F8F8F8;
+$demandBoxItems: #F3F3F3;
+$demandBoxButton :#e9e9e9;
+$tasksMenu:#A0A0A0;
 
 
 
@@ -34,4 +38,11 @@ $canvasColor:#382E47;
   -moz-border-bottom-left-radius:$bordervalleft ;
   border-bottom-left-radius:$bordervalleft ;
 
+}
+
+@mixin transition-method($time){
+  transition: all $time ease-in;
+  -moz-transition: all $time ease-in;
+  -webkit-transition: all $time ease-in;
+  -ms-transition: all $time ease-in;
 }

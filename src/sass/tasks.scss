@@ -1,0 +1,169 @@
+.tasks-page {
+  background: $bodyHeader;
+  z-index: 12;
+  position: relative;
+  .tasks-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 18px;
+    align-items: center;
+    color: $blackColor;
+    height: 32px;
+    letter-spacing: 0.2px;
+    margin-top: 80px;
+  }
+  .tasks-menu {
+    margin-top: 98px;
+    margin-bottom: 0px;
+    float: left;
+    align-items: flex-end;
+    color: $tasksMenu;
+    span {
+      background: #c5c5c5;
+      padding: 2px;
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      &.active {
+        color: $blackColor;
+      }
+    }
+    ul {
+      list-style: none;
+      li {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        cursor: pointer;
+        position: static;
+        &.active {
+          border-bottom: 4px solid $blackColor;
+          border-radius: 2px;
+          color: $blackColor;
+        }
+      }
+    }
+  }
+}
+.tasks-section {
+  .search-bar {
+    input {
+      height: 42px;
+      width: 241px;
+      border-radius: 96px;
+      padding: 10px 20px;
+      margin-top: 49px;
+    }
+    button {
+      color: $filterButtonGrey;
+      border-radius: 32px;
+      border: 1px solid $filterButtonGrey;
+      margin-top: 49px;
+      width: 98px;
+      height: 36px;
+      background: $whiteColor;
+    }
+  }
+  .filter-bar {
+    background: $whiteColor;
+    border: 1px solid #737b7d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    ul {
+      list-style: none;
+      li {
+        padding: 14px 8px 0px 8px;
+        float: left;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+        position: static;
+        text-align: center;
+        button {
+          color: $filterButtonGrey;
+          border-radius: 8px;
+          border: 1px solid $filterButtonGrey;
+          background: $whiteColor;
+        }
+      }
+    }
+  }
+  .task-box {
+    background: $bodyHeader;
+    width: 1111px;
+    height: 344px;
+    border-radius: 16px;
+    letter-spacing: 0.2px;
+    color: $blackColor;
+    margin: 10px 0px 20px 0px;
+    padding: 24px;
+    &:hover {
+      box-shadow: 0px 4px 30px 0px #00000026;
+    }
+    .task-box-article {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 32px;
+      padding: 20px 10px 5px 40px;
+      font-weight: bold;
+    }
+    .task-box-content {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 32px;
+      padding: 5px 10px 0px 40px;
+    }
+    .task-box-items {
+      background: $demandBoxItems;
+      width: 260px;
+      height: 264px;
+      border: 1px solid #ebebeb;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 18px 20px 20px 0px;
+      ul {
+        li {
+          list-style: none;
+          margin: 4px;
+          justify-content: center;
+          font-size: 14px;
+          img {
+            padding: 4px;
+          }
+        }
+      }
+    }
+    .task-box-buttons {
+      ul {
+        li {
+          float: left;
+          list-style: none;
+          margin: 5px;
+          button {
+            border-radius: 16px;
+            border: 1px solid #737b7d;
+            color: #737b7d;
+            width: 98px;
+            height: 36px;
+            img {
+              width: 8px;
+              height: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

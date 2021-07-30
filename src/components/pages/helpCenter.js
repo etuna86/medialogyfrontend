@@ -1,14 +1,14 @@
 import  React from 'react';
 
 
-function Home (){
+function HelpCenter (){
     return(
         <>
             <div className="Home-page container-fluid">
                 <div className="row justify-content-center">
                     <div className="col-6 ">
                         <div className="homepage-title">
-                            <h1>Homepage</h1>  
+                            <h1>Yardım Merkezi</h1>  
                         </div>
                     </div>
                 </div>
@@ -17,4 +17,4 @@ function Home (){
     )
 }
 
-export default Home;
+export default HelpCenter;
