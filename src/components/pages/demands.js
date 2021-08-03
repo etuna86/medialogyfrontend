@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import Updates from "../../img/updates.svg";
 import openDemands from "../../img/open-demand.svg";
 import MedialogyEcom from "../../img/medialogy-ecom.svg";
@@ -9,11 +10,11 @@ function Home() {
   return (
     <>
       <div className="grey-layer"></div>
-      <div className="Home-page">
+      <div className="demands-page">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-12">
-              <div className="homepage-title">Talepler</div>
+              <div className="demands-title">Talepler</div>
             </div>
             <div className="col-md-12">
               <div className="standard-search">

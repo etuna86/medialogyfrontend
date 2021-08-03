@@ -1,0 +1,115 @@
+.helpcenter-page {
+  background: $bodyHeader;
+  z-index: 12;
+  position: relative;
+  flex-grow: 1;
+  .writing-stage {
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 0px 0px 32px;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: $buttonGrey;
+    background: $demandBoxButton;
+    width: 140px;
+    img {
+      padding: 5px;
+    }
+  }
+  .helpcenter-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 18px;
+    align-items: center;
+    color: $blackColor;
+    height: 32px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+    .alert-section {
+      ul {
+        li {
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+  }
+}
+.helpCenterMessages {
+  .messages-submit {
+    background: $messagesSubmit;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 8px 4px 20px;
+    border-radius: 8px;
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    ul {
+      li {
+        padding: 16px;
+        list-style: none;
+        float: left;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 12px;
+        letter-spacing: 0.2px;
+        button {
+          align-items: center;
+          text-align: center;
+          width: 90px;
+          height: 30px;
+          margin-right: 7px;
+          color: $buttonGrey;
+          border-radius: 8px;
+          border: 1px solid $buttonGrey;
+        }
+        img {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  .helpCenterMessages-content {
+    .messages-contents-article {
+      background: $bodyHeader;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px;
+      border-radius: 8px;
+      padding:10px;
+      text-align: center;
+      ul {
+        li {
+          padding: 16px;
+          list-style: none;
+          float: left;
+          font-family: Mulish;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 12px;
+          letter-spacing: 0.2px;
+          img {
+            padding-right: 14px;
+          }
+          span {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    padding:9px 16px 16px 64px;
+    text-align:left;
+  }
+}

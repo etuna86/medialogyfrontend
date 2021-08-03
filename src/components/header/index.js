@@ -22,7 +22,7 @@ function Header() {
               <ul>
                 <li className="active"><Link to="/"><img src={LogoIcon} />Talepler</Link></li>
                 <li><Link to="/tasks"><img src={LogoIcon} />Görevlerim</Link></li>
-                <li><Link to="/helpCenter"><img src={LogoIcon} />Yardım Merkezi</Link></li>
+                <li><Link to="/helpCenterDemands"><img src={LogoIcon} />Yardım Merkezi</Link></li>
               </ul>
             </div>
           </div>
@@ -31,7 +31,7 @@ function Header() {
               <ul className="d-flex align-items-center">
               <li><a><Link to="/"><img className="notification" src={notification} /></Link></a></li>                
                 <li><a><Link to="/"><img className="setting" src={settings} /></Link></a></li>
-                <li><a><Link to="/"><img className="icon" src={mainPage} /></Link></a></li>
+                <li><a><Link to="/accountSettings"><img className="icon" src={mainPage} /></Link></a></li>
               </ul>
             </div>
           </div>

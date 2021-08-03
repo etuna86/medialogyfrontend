@@ -12,7 +12,7 @@
     color: $blackColor;
     height: 32px;
     letter-spacing: 0.2px;
-    margin-top: 80px;
+    padding-top: 80px;
   }
   .tasks-menu {
     margin-top: 98px;
@@ -60,9 +60,9 @@
       margin-top: 49px;
     }
     button {
-      color: $filterButtonGrey;
+      color: $buttonGrey;
       border-radius: 32px;
-      border: 1px solid $filterButtonGrey;
+      border: 1px solid $buttonGrey;
       margin-top: 49px;
       width: 98px;
       height: 36px;
@@ -88,9 +88,9 @@
         position: static;
         text-align: center;
         button {
-          color: $filterButtonGrey;
+          color: $buttonGrey;
           border-radius: 8px;
-          border: 1px solid $filterButtonGrey;
+          border: 1px solid $buttonGrey;
           background: $whiteColor;
         }
       }

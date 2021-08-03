@@ -1,0 +1,128 @@
+.helpCenterContents {
+  background: $bodyHeader;
+  z-index: 12;
+  position: relative;
+  flex-grow: 1;
+  .writing-stage {
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: $buttonGrey;
+    img {
+      padding: 5px;
+    }
+  }
+  .helpcenter-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 18px;
+    align-items: center;
+    color: $blackColor;
+    height: 32px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+    .alert-section {
+      ul {
+        li {
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+  }
+}
+.helpCenter-menu {
+  ul {
+    li {
+      margin-top: 98px;
+      margin-bottom: 0px;
+      float: left;
+      text-align: center;
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      list-style: none;
+      color: $tasksMenu;
+      text-decoration: none;
+      &.active {
+        border-bottom: 4px solid $blackColor;
+        border-radius: 2px;
+        color: $blackColor;
+      }
+      span {
+        background: #c5c5c5;
+        padding: 2px;
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        &.active {
+          color: $blackColor;
+        }
+      }
+    }
+  }
+}
+.helpCenter-contents {
+  font-family: Mulish;
+  font-style: normal;
+  line-height: 24px;
+  color: $buttonGrey;
+  align-items:center;
+  .content-text {
+    h6 {
+      font-weight: normal;
+      padding: 16px 100px 16px 100px;
+      float: left;
+      align-items: center;
+      font-size: 16px;
+    }
+    h3 {
+      font-weight: bold;
+      padding: 30px 100px 0px 100px;
+      float: left;
+      align-items: center;
+      color: $blackColor;
+    }
+    .example {
+      img {
+        padding: 30px 100px 30px 100px;
+        width: 100%;
+        height: 356px;
+      }
+    }
+    .subtitle {
+      font-size: 12px;
+      padding: 30px 110px 0px 110px;
+    }
+    .accept {
+      width: 638px;
+      height: 76px;
+      box-shadow: 0px 0px 90px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      align-items: center;
+      text-align:center;
+      margin:40px 190px 40px 180px;
+      button {
+        margin:0px 4px 0px 4px;
+        background: $blackColor;
+        color: $whiteColor;
+        border-radius: 32px;
+        padding: 8px;
+        border: 0px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+}

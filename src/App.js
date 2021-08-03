@@ -9,10 +9,14 @@ let customHistory = createBrowserHistory();
 import logo from "./logo.svg";
 
 import Header from "./components/header";
+import Footer from "./components/footer/footer.js";
 import Home from "./components/pages/demands.js";
 import Tasks from "./components/pages/tasks.js";
-import HelpCenter from "./components/pages/helpCenter.js";
-import Footer from "./components/footer/footer.js";
+import HelpCenterDemands from "./components/pages/helpCenterDemands.js";
+import HelpCenterMessages from "./components/pages/helpCenterMessages.js";
+import HelpCenterContents from "./components/pages/helpCenterContents.js";
+import Earnings from "./components/pages/earnings.js";
+import AccountSettings from "./components/pages/accountSettings.js";
 
 class App extends Component {
   constructor(props) {
@@ -32,8 +36,20 @@ class App extends Component {
             <Route path="/tasks">
               <Tasks />
             </Route>
-            <Route path="/helpCenter">
-              <HelpCenter />
+            <Route path="/helpCenterDemands">
+              <HelpCenterDemands />
+            </Route>
+            <Route path="/helpCenterMessages">
+              <HelpCenterMessages />
+            </Route>
+            <Route path="/helpCenterContents">
+              <HelpCenterContents />
+            </Route>
+            <Route path="/earnings">
+              <Earnings />
+            </Route>
+            <Route path="/accountSettings">
+              <AccountSettings />
             </Route>
           </Switch>
           <Footer />

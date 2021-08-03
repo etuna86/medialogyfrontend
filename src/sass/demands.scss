@@ -1,7 +1,7 @@
-.Home-page {
+.demands-page {
   z-index: 12;
   position: relative;
-  .homepage-title {
+  .demands-title {
     height: 32px;
     font-family: Mulish;
     font-style: normal;
@@ -20,9 +20,9 @@
     margin-top: 55px;
   }
   button {
-    color: $filterButtonGrey;
+    color: $buttonGrey;
     border-radius: 32px;
-    border: 1px solid $filterButtonGrey;
+    border: 1px solid $buttonGrey;
     margin-top: 55px;
     width:98px;
     height:36px;
