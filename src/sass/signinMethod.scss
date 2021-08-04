@@ -14,6 +14,7 @@
   margin-top: 70px;
   font-family: Mulish;
   font-style: normal;
+  padding: 10px 22px 10px 0px;
   .info {
     ul {
       border-right: 1px solid $line;
@@ -23,13 +24,12 @@
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.3px;
-        padding: 22px;
-        text-align:start;
+        padding: 10px 0px 30px 0px;
         a {
           color: $buttonGrey;
           text-decoration: none;
           .active {
-            color:$whiteColor;
+            color: $whiteColor;
             background: $buttonGrey;
             width: 160px;
             height: 40px;
@@ -44,12 +44,19 @@
   .about {
     ul {
       li {
-        float: left;
         list-style: none;
-        padding: 11px 22px 11px 0px;
+        padding: 10px 22px 15px 0px;
         font-size: 20px;
         color: $blackColor;
         font-weight: bold;
+        h5 {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        h6 {
+          font-weight: normal;
+          font-size: 14px;
+        }
         button {
           border-radius: 16px;
           color: $buttonGrey;
@@ -62,58 +69,22 @@
       }
     }
   }
-  .profile-picture {
-    ul {
-      li {
-        float: left;
-        list-style: none;
-        padding: 11px 100px 11px 0px;
-        font-size: 16px;
-        line-height: 32px;
-        color: $blackColor;
-        font-weight: bold;
-        img {
-          border-radius: 60%;
-          width: 120px;
-          height: 100px;
-        }
-      }
+  .verification {
+    padding: 15px 7px 15px 30px;
+    h4 {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
     }
-  }
-  .username {
-    ul {
-      li {
-        float: left;
-        list-style: none;
-        padding: 11px 100px 11px 0px;
-        font-size: 16px;
-        line-height: 32px;
-        color: $blackColor;
-        font-weight: bold;
-        h6 {
-          padding-top: 8px;
-          font-weight: normal;
-          font-size: 14px;
-        }
-      }
+    h5 {
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
     }
-  }
-  .brief-info {
-    ul {
-      li {
-        float: left;
-        list-style: none;
-        padding: 11px 100px 11px 0px;
-        font-size: 16px;
-        line-height: 32px;
-        color: $blackColor;
-        font-weight: bold;
-        h6 {
-          font-weight: normal;
-          font-size: 14px;
-          padding: 8px 0px 8px 57px;
-        }
-      }
+    h6 {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
     }
   }
 }

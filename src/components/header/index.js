@@ -6,6 +6,7 @@ import LogoIcon from "../../img/squared.svg";
 import notification from "../../img/notification.svg";
 import settings from "../../img/settings.svg";
 import mainPage from "../../img/main-page.svg";
+import triangle from "../../img/triangle.svg";
 
 function Header() {
   return (

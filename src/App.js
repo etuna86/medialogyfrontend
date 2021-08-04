@@ -17,6 +17,10 @@ import HelpCenterMessages from "./components/pages/helpCenterMessages.js";
 import HelpCenterContents from "./components/pages/helpCenterContents.js";
 import Earnings from "./components/pages/earnings.js";
 import AccountSettings from "./components/pages/accountSettings.js";
+import PersonalInfo from "./components/pages/personalInfo.js";
+import SignInMethod from "./components/pages/signinMethod";
+import Notifications from "./components/pages/notifications";
+import AccountInfo from "./components/pages/accountInfo";
 
 class App extends Component {
   constructor(props) {
@@ -50,6 +54,18 @@ class App extends Component {
             </Route>
             <Route path="/accountSettings">
               <AccountSettings />
+            </Route>
+            <Route path="/personalInfo">
+                <PersonalInfo />
+            </Route>
+            <Route path="/signinMethod">
+                <SignInMethod />
+            </Route>
+            <Route path="/notifications">
+                <Notifications />
+            </Route>
+            <Route path="/accountInfo">
+                <AccountInfo />
             </Route>
           </Switch>
           <Footer />

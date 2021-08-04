@@ -1,11 +1,13 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import settings from "../../img/settings-bold.svg";
 import alert from "../../img/alert.svg";
 import history from "../../img/history.svg";
 import circle from "../../img/messages-circle.svg";
 import threePoints from "../../img/three-points.svg";
 import smile from "../../img/smile.svg";
-import { Link, useLocation } from "react-router-dom";
+import close from "../../img/close-helpcenter.svg";
+
 
 function HelpCenterMessages() {
   return (
@@ -22,7 +24,7 @@ function HelpCenterMessages() {
                 <div className="alert-section">
                   <ul className="align-items-center d-flex bd-highlight col-md-12">
                     <li className="p-2 flex-grow-1 bd-highlight">
-                      {" "}
+                      {" "}<img src={close} />
                       Talep Başlığı{" "}
                     </li>
                     <li className="p-2 bd-highlight">

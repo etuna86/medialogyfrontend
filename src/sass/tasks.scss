@@ -129,10 +129,10 @@
       background: $demandBoxItems;
       width: 260px;
       height: 264px;
-      border: 1px solid #ebebeb;
+      border: 1px solid $taskBoxItems;
       border-radius: 8px;
       padding: 24px;
-      margin: 18px 20px 20px 0px;
+      margin: 18px 30px 20px 0px;
       ul {
         li {
           list-style: none;

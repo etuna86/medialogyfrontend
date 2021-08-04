@@ -57,14 +57,14 @@
       line-height: 22px;
       list-style: none;
       text-decoration: none;
+      a{
+        text-decoration: none;
+        color: $tasksMenu;
+      }
       &.active {
         border-bottom: 4px solid $blackColor;
         border-radius: 2px;
         color: $blackColor;
-      }
-      a{
-        text-decoration: none;
-        color: $tasksMenu;
       }
       span {
         background: #c5c5c5;

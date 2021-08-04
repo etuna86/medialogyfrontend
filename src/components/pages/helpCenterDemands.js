@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import settings from "../../img/settings-bold.svg";
 import alert from "../../img/alert.svg";
 import history from "../../img/history.svg";
@@ -7,7 +8,6 @@ import price from "../../img/price.svg";
 import hourglass from "../../img/hourglass.svg";
 import medialogyEcom from "../../img/medialogy-ecom.svg";
 import example from "../../img/example-image.svg";
-import { Link, useLocation } from "react-router-dom";
 
 function HelpCenterDemands() {
   return (
@@ -25,6 +25,7 @@ function HelpCenterDemands() {
                   <ul className="align-items-center d-flex bd-highlight col-md-12">
                     <li className="p-2 flex-grow-1 bd-highlight">
                       {" "}
+                      <img src={close} />
                       Talep Başlığı{" "}
                     </li>
                     <li className="p-2 bd-highlight">
@@ -62,9 +63,7 @@ function HelpCenterDemands() {
               <div className="article">
                 <ul>
                   <li>
-                    <div className="brief">
-                      <a>Ön Bilgi </a>
-                    </div>
+                    <div className="brief">Ön Bilgi</div>
                   </li>
                   <li>Brief</li>
                   <li>Referanslar</li>

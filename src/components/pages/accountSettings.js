@@ -20,11 +20,11 @@ function AccountSettings() {
             <div className="col-md-3">
               <div className="info">
                 <ul>
-                  <li className="active">Profil Bilgileri</li>
-                  <li>Kişisel Bilgiler</li>
-                  <li>Giriş Yöntemi</li>
-                  <li>Bildirimler</li>
-                  <li>Hesap Bilgileri</li>
+                  <li><a><Link to="/accountSettings"><div className="active">Profil Bilgileri</div></Link></a></li>
+                  <li><a><Link to="/personalInfo">Kişisel Bilgiler</Link></a></li>
+                  <li><a><Link to="/signinMethod">Giriş Yöntemi</Link></a></li>
+                  <li><a><Link to="/notifications">Bildirimler</Link></a></li>
+                  <li><a><Link to="/accountInfo">Hesap Bilgileri</Link></a></li>
                 </ul>
               </div>
             </div>

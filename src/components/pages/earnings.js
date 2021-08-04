@@ -11,21 +11,19 @@ function Earnings() {
             <div className="col-md-12">
               <div className="earnings-title">Kazançlar</div>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="earning-features-titles">
-                  <ul className="d-flex justify-content-between">
-                    <li>Son Ödeme</li>
-                    <li>Toplam Ödeme</li>
-                    <li>Bekleyen Ödeme</li>
-                    <li>Toplam İçerik</li>
-                  </ul>
-                </div>
+            <div className="col-md-12">
+              <div className="earning-features-titles">
+                <ul className="d-flex justify-content-between">
+                  <li>Son Ödeme</li>
+                  <li>Toplam Ödeme</li>
+                  <li>Bekleyen Ödeme</li>
+                  <li>Toplam İçerik</li>
+                </ul>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="earnings-features">
+            <div className="earnings-features">
+              <div className="row">
+                <div className="col-md-12">
                   <ul className="d-flex justify-content-between">
                     <li>Mayıs 10, 2021</li>
                     <li>235.44 TL</li>
