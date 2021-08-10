@@ -60,19 +60,19 @@
         }
       }
     }
-    .info-titles {
+    .personal-info-titles {
       ul {
         li {
-          padding:20px 0px 10px 20px;
           list-style: none;
           font-size: 16px;
           line-height: 32px;
           color: $blackColor;
           font-weight: bold;
+          text-align:start;
           h6{
             font-weight: normal;
-            font-size: 14px;
-            padding:20px 20px 10px 140px;
+            font-size: 14px;      
+            padding:5px 0px 5px 140px;      
           }
         }
       }

@@ -19,8 +19,21 @@ import Earnings from "./components/pages/earnings.js";
 import AccountSettings from "./components/pages/accountSettings.js";
 import PersonalInfo from "./components/pages/personalInfo.js";
 import SignInMethod from "./components/pages/signinMethod";
-import Notifications from "./components/pages/notifications";
-import AccountInfo from "./components/pages/accountInfo";
+import Notifications from "./components/pages/notifications.js";
+import AccountInfo from "./components/pages/accountInfo.js";
+import WriterSettings from "./components/pages/writerSettings.js";
+import Interests from "./components/pages/interests.js";
+import PublisherDemands from "./components/pages/publisher/publisherDemands";
+import PublisherModel from "./components/pages/publisher/publisherModel";
+import PublisherPriorKnowledge from "./components/pages/publisher/publisherPriorKnowledge";
+import PublisherDetails from "./components/pages/publisher/publisherDetails";
+import References from "./components/pages/publisher/publisherReferences";
+import PublisherServices from "./components/pages/publisher/publisherServices";
+import PublisherImgUse from "./components/pages/publisher/publisherImgUse";
+import PublisherNumber from "./components/pages/publisher/publisherNumber";
+import PublisherPayment from "./components/pages/publisher/publisherPayment";
+import PublisherDemandEnd from "./components/pages/publisher/publisherDemandEnd";
+
 
 class App extends Component {
   constructor(props) {
@@ -66,6 +79,42 @@ class App extends Component {
             </Route>
             <Route path="/accountInfo">
                 <AccountInfo />
+            </Route>
+            <Route path="/writerSettings">
+                <WriterSettings />
+            </Route>
+            <Route path="/interests">
+                <Interests />
+            </Route>
+            <Route path="/publisherDemands">
+                <PublisherDemands />
+            </Route>
+            <Route path="/publisherModel">
+                <PublisherModel />
+            </Route>
+            <Route path="/publisherPriorKnowledge">
+                <PublisherPriorKnowledge />
+            </Route>
+            <Route path="/publisherDetails">
+                <PublisherDetails />
+            </Route>
+            <Route path="/publisherReferences">
+                <References />
+            </Route>
+            <Route path="/publisherServices">
+                <PublisherServices />
+            </Route>
+            <Route path="/publisherImgUse">
+                <PublisherImgUse />
+            </Route>
+            <Route path="/publisherNumber">
+                <PublisherNumber />
+            </Route>
+            <Route path="/publisherPayment">
+                <PublisherPayment />
+            </Route>
+            <Route path="/publisherDemandEnd">
+                <PublisherDemandEnd />
             </Route>
           </Switch>
           <Footer />

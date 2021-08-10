@@ -60,26 +60,26 @@ function PersonalInfo() {
                 </ul>
               </div>
               <div className="col-md-12">
-                <div className="info-titles">
+                <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
-                    <li className="p-2 flex-shrink-1 bd-highlight">Tam İsim</li>
-                    <li className="p-2 w-100 bd-highlight"><h6>Jonathan Davis</h6></li>
+                    <li className="flex-shrink-1 bd-highlight">Tam İsim</li>
+                    <li className="bd-highlight"><h6>Jonathan Davis</h6></li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-12">
-                <div className="info-titles">
+                <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
-                    <li className="p-2 flex-shrink-1 bd-highlight">Telefon</li>
-                    <li className="p-2 w-100 bd-highlight"><h6>90 554 123 12 12</h6></li>
+                    <li className="flex-shrink-1 bd-highlight">Telefon</li>
+                    <li className=" bd-highlight"><h6>90 554 123 12 12</h6></li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-12">
-                <div className="info-titles">
+                <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
-                    <li className="p-2 flex-shrink-1 bd-highlight">Adres</li>
-                    <li className="p-2 w-100 bd-highlight"><h6>
+                    <li className="flex-shrink-1 bd-highlight">Adres</li>
+                    <li className="bd-highlight"><h6>
                       Cumhuriyet Mh. Aşık Veysel Cd. 112 / 27 İstanbul,
                       Kucukcekmece, TR
                       </h6>
