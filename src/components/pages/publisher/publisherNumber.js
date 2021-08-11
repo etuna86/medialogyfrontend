@@ -37,7 +37,7 @@ function PublisherNumber() {
                 <ul>
                   <li>
                     <a>
-                      <Link to="/publisherDashboard">Talep Tipi</Link>
+                      <Link to="/publisherDemands">Talep Tipi</Link>
                     </a>
                   </li>
                   <li>

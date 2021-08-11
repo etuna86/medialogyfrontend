@@ -6,11 +6,10 @@
   height: 88px;
   position: relative;
   .logo-section {
-    margin-top: 10px;
     img {
       margin: 0;
       position: absolute;
-      top: 25%;
+      padding-top: 20px;
     }
   }
   .main-menu {
@@ -20,7 +19,6 @@
       position: absolute;
       top: 50%;
       left: 48%;
-      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       li {
         float: left;
@@ -61,7 +59,6 @@
       position: absolute;
       top: 50%;
       right: 0%;
-      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       li {
         float: right;
@@ -70,7 +67,6 @@
         position: static;
         flex: none;
         align-items: center;
-
         img {
           .icon {
             width: 24px;

@@ -36,21 +36,27 @@ function PublisherServices() {
               <div>
                 <ul>
                   <li>
-                    <figure className="col-md-6">
-                      <img src={example} />
-                    </figure>
-                    <figcaption>İçerik Üretimi</figcaption>
+                    <Link to="/publisherDemands">
+                      <figure className="col-md-6">
+                        <img src={example} />
+                      </figure>
+                      <figcaption>İçerik Üretimi</figcaption>
+                    </Link>
                   </li>
                   <li>
-                    <figure className="col-md-6">
-                      <img src={example} />
-                    </figure>
-                    <figcaption>Çeviri</figcaption>
+                    <Link to="/publisherDemands">
+                      <figure className="col-md-6">
+                        <img src={example} />
+                      </figure>
+                      <figcaption>Çeviri</figcaption>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-6 d-flex justify-content-center">
+                <Link to="/publisherDemands">
                   <button>Toplu Teklif İste</button>
+                </Link>
               </div>
             </div>
           </div>

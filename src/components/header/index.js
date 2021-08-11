@@ -13,12 +13,12 @@ function Header() {
     <div className="header">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-md-3">
             <div className="logo-section">
               <a><Link to="/"><img src={LogoImg} /></Link></a>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="main-menu">
               <ul>
                 <li className="active"><Link to="/"><img src={LogoIcon} />Talepler</Link></li>
@@ -27,7 +27,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="col">
+          <div className="col-md-3">
             <div className="settings">
               <ul className="d-flex align-items-center">
               <li><a><Link to="/"><img className="notification" src={notification} /></Link></a></li>                

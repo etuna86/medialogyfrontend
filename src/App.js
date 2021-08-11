@@ -33,6 +33,11 @@ import PublisherImgUse from "./components/pages/publisher/publisherImgUse";
 import PublisherNumber from "./components/pages/publisher/publisherNumber";
 import PublisherPayment from "./components/pages/publisher/publisherPayment";
 import PublisherDemandEnd from "./components/pages/publisher/publisherDemandEnd";
+import WriterExperience from "./components/pages/writerExperience";
+import PublisherSettings from "./components/pages/publisher/publisherSettings";
+import PublisherUsers from "./components/pages/publisher/publisherUsers";
+import AgencyDashboard from "./components/pages/agency/agencyDashboard";
+import AgencyPublisher from "./components/pages/agency/agencyPublisher";
 
 
 class App extends Component {
@@ -115,6 +120,21 @@ class App extends Component {
             </Route>
             <Route path="/publisherDemandEnd">
                 <PublisherDemandEnd />
+            </Route>
+            <Route path="/writerExperience">
+                <WriterExperience />
+            </Route>
+            <Route path="/publisherSettings">
+                <PublisherSettings />
+            </Route>
+            <Route path="/publisherUsers">
+                <PublisherUsers />
+            </Route>
+            <Route path="/agencyDashboard">
+                <AgencyDashboard />
+            </Route>
+            <Route path="/agencyPublisher">
+                <AgencyPublisher />
             </Route>
           </Switch>
           <Footer />

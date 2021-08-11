@@ -22,7 +22,7 @@ function Home() {
                   <div className="search-inside d-flex justify-content-between bd-highlight mb-3">
                     <button>Filtrele</button>
                     <input
-                      class="form-control"
+                      className="form-control"
                       type="text"
                       placeholder="Arama"
                       aria-label="default input example"

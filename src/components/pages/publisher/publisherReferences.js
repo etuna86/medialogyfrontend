@@ -87,7 +87,7 @@ function References() {
               <div className="reference-type">
                 <div className="card">
                   <div className="card-body">
-                    <Link to="/publisherPriorKnowledge">
+                    <Link to="/publisherDetails">
                       <img src={back} />
                     </Link>
                     <h5>Referanslar</h5>
@@ -144,7 +144,7 @@ function References() {
                 </div>
               </div>
               <div className="col-md-12 align-items-start">
-                <div className="next">
+                <div className="next col-md-6">
                   <ul className="d-flex justify-content-between">
                     <li>
                       <h6>Ödeme Toplamı</h6>

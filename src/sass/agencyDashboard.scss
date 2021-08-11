@@ -1,0 +1,104 @@
+.agencyDashboard {
+  z-index: 12;
+  position: relative;
+  font-family: Mulish;
+  font-style: normal;
+  ul {
+    li {
+      list-style: none;
+      padding: 10px;
+      .dashboard-title {
+        height: 32px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: $blackColor;
+        margin-top: 55px;
+      }
+      .dashboard-content {
+        font-weight: normal;
+        font-size: 14px;
+        color: $buttonGrey;
+      }
+      button {
+        background: $whiteColor;
+        border-radius: 32px;
+        border: 1px solid $agencyDashboardButton;
+        margin-top: 55px;
+        width: 98px;
+        height: 36px;
+      }
+      input {
+        width: 241px;
+        height: 42px;
+        border: 1px solid $experienceBorder;
+        border-radius: 32px;
+      }
+    }
+  }
+  .agency-publishers {
+    padding: 10px;
+    h5 {
+      font-weight: bold;
+      font-size: 32px;
+      color: $blackColor;
+    }
+    h6 {
+      font-size: 14px;
+      color: $buttonGrey;
+    }
+    .agency-filters {
+      ul {
+        li {
+          list-style: none;
+          float: left;
+          padding: 0px;
+          margin: 0px;
+          button {
+            width: 151px;
+            height: 40px;
+          }
+        }
+      }
+      .agency-publisher-icons {
+        ul {
+          li {
+            text-align: center;
+            list-style: none;
+            padding: 10px;
+            .agency-publishers-menu {
+              border: 1px solid $buttonGrey;
+              border-radius: 16px;
+              width: 250px;
+              background: $whiteColor;
+              height: 177px;
+              .agency-publisher-contents {
+                background: $agencyPublisherIcons;
+                height: 117px;
+                border-radius: 16px;
+              }
+              span {
+                padding: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .see-all{
+    align-items: center;
+    button{
+      color:$buttonGrey;
+      background-color: $whiteColor;
+      border: 1px solid $buttonGrey;
+      border-radius: 16px;
+      align-items: center;
+      text-align:center;
+      padding:5px;
+    }
+  }
+}

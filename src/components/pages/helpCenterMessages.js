@@ -81,7 +81,7 @@ function HelpCenterMessages() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 messages-contents-article">
-                <div className="align-items-center">
+                <div className="d-flex align-items-center">
                   <ul className="d-flex justify-content-between">
                     <li>
                       <img src={circle} />
