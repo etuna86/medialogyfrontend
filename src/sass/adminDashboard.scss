@@ -1,0 +1,71 @@
+.adminDashboard {
+  z-index: 12;
+  position: relative;
+  font-family: Mulish;
+  font-style: normal;
+  ul {
+    padding: 60px 0px;
+    li {
+      list-style: none;
+      .dashboard-title {
+        font-weight: bold;
+        font-size: 32px;
+        letter-spacing: 0.2px;
+        color: $blackColor;
+      }
+      .dashboard-content {
+        font-weight: normal;
+        font-size: 14px;
+        color: $buttonGrey;
+      }
+      button {
+        background: $whiteColor;
+        border-radius: 32px;
+        border: 1px solid $agencyDashboardButton;
+        width: 98px;
+        height: 36px;
+      }
+    }
+  }
+  .stats {
+    text-align: center;
+    .stats-menu {
+      font-weight: normal;
+      font-size: 20px;
+      color: $blackColor;
+      padding: 10px;
+      text-decoration: none;
+      .stats-name {
+        padding: 30px;
+        background: $adminAgencyName;
+        color: $blackColor;
+        img {
+          border-radius: 50%;
+          padding: 10px 0px;
+        }
+      }
+      .stats-numbers {
+        background: $whiteColor;
+        padding: 20px;
+        table {
+          tr {
+            td {
+              padding: 0px 20px;
+              font-weight: normal;
+              font-size: 32px;
+              color: $blackColor;
+              line-height: 18px;
+              text-align: -webkit-center;
+              span {
+                font-size: 14px;
+              }
+              &:nth-child(even){
+                background: $bodyHeader;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

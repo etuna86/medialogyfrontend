@@ -44,6 +44,9 @@ import PublisherPlans from "./components/pages/publisher/publisherPlans";
 import HelpCenter from "./components/pages/helpCenter";
 import HelpCenterPages from "./components/pages/helpCenterPages";
 import EditorDashboard from "./components/pages/editorDashboard";
+import AdminDashboard from "./components/pages/admin/adminDashboard";
+import AdminAgencies from "./components/pages/admin/adminAgencies";
+import AdminAgencyPublishers from "./components/pages/admin/adminAgencyPublishers";
 
 
 class App extends Component {
@@ -156,6 +159,15 @@ class App extends Component {
             </Route>
             <Route path="/editorDashboard">
               <EditorDashboard />
+            </Route>
+            <Route path="/adminDashboard">
+              <AdminDashboard />
+            </Route>
+            <Route path="/adminAgencies">
+              <AdminAgencies />
+            </Route>
+            <Route path="/adminAgencyPublishers">
+              <AdminAgencyPublishers />
             </Route>
           </Switch>
           <Footer />

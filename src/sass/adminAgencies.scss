@@ -1,0 +1,203 @@
+.adminAgencies {
+  z-index: 12;
+  position: relative;
+  font-family: Mulish;
+  font-style: normal;
+  ul {
+    padding: 60px 0px;
+    li {
+      list-style: none;
+      .dashboard-title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: $blackColor;
+      }
+      .dashboard-content {
+        font-weight: normal;
+        font-size: 14px;
+        color: $buttonGrey;
+      }
+      button {
+        background: $whiteColor;
+        border-radius: 32px;
+        border: 1px solid $agencyDashboardButton;
+        width: 98px;
+        height: 36px;
+      }
+      input {
+        width: 241px;
+        height: 42px;
+        border: 1px solid $experienceBorder;
+        border-radius: 32px;
+      }
+    }
+  }
+  .stats {
+    text-align: center;
+    .stats-menu {
+      font-weight: normal;
+      font-size: 20px;
+      color: $blackColor;
+      padding: 10px;
+      .stats-name {
+        padding: 30px;
+        background: $adminAgencyName;
+        img {
+          border-radius: 50%;
+        }
+      }
+      .stats-numbers {
+        background: $whiteColor;
+        padding: 20px;
+        table {
+          tr {
+            td {
+              padding: 0px 20px;
+              font-weight: normal;
+              font-size: 32px;
+              color: $blackColor;
+              line-height: 18px;
+              text-align: -webkit-center;
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .admin-agencies {
+    .agency-filters {
+      ul {
+        padding: 10px 0px;
+        li {
+          list-style: none;
+          float: left;
+          button {
+            width: 151px;
+            height: 40px;
+          }
+          &:first-child {
+            button {
+              background: $buttonGrey;
+              color: $whiteColor;
+            }
+          }
+        }
+      }
+      .agency-publisher-icons {
+        ul {
+          li {
+            text-align: center;
+            list-style: none;
+            padding: 10px;
+            .agency-publishers-menu {
+              border: 1px solid $buttonGrey;
+              border-radius: 16px;
+              width: 250px;
+              background: $whiteColor;
+              height: auto;
+              .menu-numbers {
+                border-bottom: 1px solid $agencyPublisherSpan;
+                padding: 10px;
+                span {
+                  padding: 40px;
+                  &.active {
+                    border-bottom: 1px solid $blackColor;
+                    color: $blackColor;
+                  }
+                }
+              }
+              .admin-agency-names {
+                padding: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .list-style {
+      background: $adminAgencyName;
+      border-radius: 8px;
+      width: 90%;
+      table {
+        width: 100%;
+        font-weight: normal;
+        font-size: 14px;
+        color: $buttonGrey;
+        cursor: pointer;
+        tr {
+          text-align: center;
+          td {
+            padding: 10px 0px;
+            &.active {
+              color: $blackColor;
+              border-bottom: 1px solid $blackColor;
+            }
+            &:first-child {
+              text-align: start;
+            }
+          }
+          &:first-child {
+            text-align: start;
+          }
+        }
+      }
+    }
+    .pagination {
+      font-size: 14px;
+      font-weight: normal;
+      a {
+        color: $buttonGrey;
+        padding: 10px;
+        text-decoration: none;
+        &.active {
+          opacity: 0.5;
+        }
+      }
+    }
+    .agency-publisher-icons {
+      ul {
+        li {
+          text-align: center;
+          list-style: none;
+          padding: 10px;
+          float: left;
+          .agency-publishers-menu {
+            border: 1px solid $buttonGrey;
+            border-radius: 16px;
+            width: 250px;
+            background: $whiteColor;
+            height: 177px;
+            font-weight: bold;
+            font-size: 14px;
+            color:$blackColor;
+            .agency-publisher-contents {
+              background: $agencyPublisherIcons;
+              height: 117px;
+              border-radius: 16px;
+            }
+            span {
+              padding: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .see-all {
+    align-items: center;
+    button {
+      color: $buttonGrey;
+      background-color: $whiteColor;
+      border: 1px solid $buttonGrey;
+      border-radius: 16px;
+      padding: 5px;
+    }
+  }
+}
