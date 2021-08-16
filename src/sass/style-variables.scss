@@ -1,5 +1,6 @@
 $whiteColor:#ffffff;
 $taskBoxItems:#ebebeb;
+$greyLayer:#eeeeee;
 $blackColor:#000000;
 $greyColor:#d2d2d2;
 $footerGrey:#E0E0E0;
@@ -23,6 +24,8 @@ $referencesItems: #B8B8B8;
 $usersButton: #c4c4c4;
 $agencyDashboardButton: #E2E5E6;
 $agencyPublisherIcons:#e7e7e7;
+$agencyPublisherSpan: #c5c5c5;
+$boxShadow:#000026;
 
 
 @mixin borderRadius($borderval)

@@ -5,16 +5,16 @@ import example from "../../../img/example-image.svg";
 function PublisherSettings() {
   return (
     <>
-      <div className="account-settings">
+      <div className="publisher-settings">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="settings-title">Yayıncı Ayarları</div>
+              <div className="publisherSettings-title">Yayıncı Ayarları</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="settings-section">
+      <div className="publisherSettings-section">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
@@ -34,12 +34,12 @@ function PublisherSettings() {
                   </li>
                   <li>
                     <a>
-                      <Link to="/signinMethod">Planınızı Yükseltin</Link>
+                      <Link to="/publisherPlans">Planınızı Yükseltin</Link>
                     </a>
                   </li>
                   <li>
                     <a>
-                      <Link to="/notifications">Ödeme Yöntemi</Link>
+                      <Link to="/publisherPayment">Ödeme Yöntemi</Link>
                     </a>
                   </li>
                 </ul>

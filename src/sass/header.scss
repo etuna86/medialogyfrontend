@@ -2,7 +2,6 @@
   background: rgba(255, 255, 255, 0.1);
   padding: 0px;
   margin: 0px;
-  border: 1px solid #e2e5e6;
   height: 88px;
   position: relative;
   .logo-section {
@@ -25,8 +24,8 @@
         list-style: none;
         position: static;
         flex: none;
-        height:88px;
-        &.active{
+        height: 88px;
+        &.active {
           border-bottom: 4px solid $blackColor;
         }
         a {
@@ -42,8 +41,8 @@
           margin: 0px 10px;
           display: flex;
           align-items: center;
-          height:88px;
-          line-height:88px;
+          height: 88px;
+          line-height: 88px;
           img {
             width: 18px;
             height: 18px;
@@ -63,29 +62,10 @@
       li {
         float: right;
         list-style: none;
-        margin: 0px 10px;
+        padding: 0px 10px;
         position: static;
         flex: none;
         align-items: center;
-        img {
-          .icon {
-            width: 24px;
-            height: 24px;
-            left: 0px;
-            right: 0px;
-            margin-top: 0px;
-          }
-          .notification {
-            width: 25px;
-            height: 20px;
-            margin-top: 20px;
-          }
-          .setting {
-            left: 4.17%;
-            right: 4.17%;
-            margin-top: 20px;
-          }
-        }
       }
     }
   }

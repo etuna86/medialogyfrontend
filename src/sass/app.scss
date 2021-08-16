@@ -1,24 +1,23 @@
-
 @import "~bootstrap/scss/bootstrap";
-@import 'fonts.scss';
-@import 'style-variables';
+@import "fonts.scss";
+@import "style-variables";
 
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'; 
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/css/all.css';
-
-
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 @import "header.scss";
 @import "footer.scss";
 @import "style.scss";
 @import "demands.scss";
 @import "tasks.scss";
-@import "helpCenterDemands.scss";
-@import "helpCenterMessages.scss";
-@import "helpCenterContents.scss";
+@import "helpCenter.scss";
+@import "helpCenterPages.scss";
+@import "tasksDemands.scss";
+@import "tasksMessages.scss";
+@import "tasksContents.scss";
 @import "earnings.scss";
 @import "accountSettings.scss";
 @import "personalInfo.scss";
@@ -39,5 +38,9 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "publisherDemandEnd.scss";
 @import "writerExperience.scss";
 @import "publisherUsers.scss";
+@import "publisherSettings.scss";
+@import "publisherPlans.scss";
 @import "agencyDashboard.scss";
 @import "agencyPublisher.scss";
+@import "agencyExperience.scss";
+@import "editorDashboard.scss";

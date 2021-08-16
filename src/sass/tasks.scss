@@ -2,29 +2,20 @@
   background: $bodyHeader;
   z-index: 12;
   position: relative;
+  font-family: Mulish;
+  font-style: normal;
   .tasks-title {
-    font-family: Mulish;
-    font-style: normal;
     font-weight: bold;
     font-size: 32px;
-    line-height: 18px;
     align-items: center;
     color: $blackColor;
-    height: 32px;
     letter-spacing: 0.2px;
-    padding-top: 80px;
+    padding: 60px 0px;
   }
   .tasks-menu {
-    margin-top: 98px;
-    margin-bottom: 0px;
-    float: left;
-    align-items: flex-end;
     color: $tasksMenu;
     span {
-      background: #c5c5c5;
-      padding: 2px;
-      width: 24px;
-      height: 24px;
+      background: $agencyPublisherSpan;
       border-radius: 4px;
       &.active {
         color: $blackColor;
@@ -33,14 +24,10 @@
     ul {
       list-style: none;
       li {
-        font-family: Mulish;
-        font-style: normal;
         font-weight: 600;
         font-size: 14px;
-        line-height: 22px;
         text-align: center;
         cursor: pointer;
-        position: static;
         &.active {
           border-bottom: 4px solid $blackColor;
           border-radius: 2px;
@@ -51,6 +38,8 @@
   }
 }
 .tasks-section {
+  font-family: Mulish;
+  font-style: normal;
   .search-bar {
     input {
       height: 42px;
@@ -79,14 +68,9 @@
       list-style: none;
       li {
         padding: 14px 8px 0px 8px;
-        float: left;
-        font-family: Mulish;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 22px;
-        position: static;
-        text-align: center;
         button {
           color: $buttonGrey;
           border-radius: 8px;
@@ -98,28 +82,24 @@
   }
   .task-box {
     background: $bodyHeader;
-    width: 1111px;
-    height: 344px;
     border-radius: 16px;
     letter-spacing: 0.2px;
     color: $blackColor;
     margin: 10px 0px 20px 0px;
     padding: 24px;
     &:hover {
-      box-shadow: 0px 4px 30px 0px #00000026;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
     }
     .task-box-article {
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 22px;
-      line-height: 32px;
       padding: 20px 10px 5px 40px;
-      font-weight: bold;
+      a {
+        font-weight: bold;
+        font-size: 22px;
+        color: $blackColor;
+        text-decoration: none;
+      }
     }
     .task-box-content {
-      font-family: Mulish;
-      font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 32px;
@@ -127,16 +107,12 @@
     }
     .task-box-items {
       background: $demandBoxItems;
-      width: 260px;
-      height: 264px;
       border: 1px solid $taskBoxItems;
       border-radius: 8px;
       padding: 24px;
-      margin: 18px 30px 20px 0px;
       ul {
         li {
           list-style: none;
-          margin: 4px;
           justify-content: center;
           font-size: 14px;
           img {

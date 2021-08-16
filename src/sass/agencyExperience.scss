@@ -1,7 +1,9 @@
-.writerExperience {
+.agencyExperience {
   background: $bodyHeader;
   font-family: Mulish;
   font-style: normal;
+  z-index: 12;
+  position: relative;
   .experience-title {
     font-weight: bold;
     font-size: 32px;
@@ -38,42 +40,14 @@
       }
     }
   }
-  .experience-scores {
-    padding-left: 20px;
-    h5 {
-      font-weight: bold;
-      color: $blackColor;
-      letter-spacing: 0.2px;
-      font-size: 20px;
-    }
-    ul {
-      padding: 10px 30px;
-      :first-child {
-        border-left: 1px solid $experienceBorder;
-      }
-      li {
-        float: left;
-        list-style: none;
-        color: $blackColor;
-        font-weight: bold;
-        font-size: 16px;
-        border-right: 1px solid $experienceBorder;
-        padding: 5px 50px;
-        .score {
-          font-size: 64px;
-          border: none;
-        }
-      }
-    }
-  }
-  .stats {
-    img {
-      width: 773px;
-      height: 203px;
-      padding: 25px 0px;
-    }
-  }
   .experience-numbers {
+    h6 {
+      list-style: none;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 0.3px;
+      padding: 22px;
+    }
     ul {
       list-style: none;
       font-weight: bold;

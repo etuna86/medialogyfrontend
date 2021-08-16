@@ -5,12 +5,11 @@
   .settings-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 32px;
     color: $blackColor;
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px;
   }
 }
-.settings-section {
+.accountsettings-section {
   margin-top: 70px;
   font-family: Mulish;
   font-style: normal;
@@ -21,15 +20,14 @@
         list-style: none;
         font-weight: bold;
         font-size: 14px;
-        line-height: 18px;
         letter-spacing: 0.3px;
+        text-align: start;
         padding: 22px;
-        text-align:start;
         a {
           color: $buttonGrey;
           text-decoration: none;
           .active {
-            color:$whiteColor;
+            color: $whiteColor;
             background: $buttonGrey;
             width: 160px;
             height: 40px;

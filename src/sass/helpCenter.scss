@@ -1,0 +1,37 @@
+.helpCenter-page {
+  z-index: 12;
+  position: relative;
+  background: $bodyHeader;
+  font-family: Mulish;
+  font-style: normal;
+  .helpCenter-title {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    color: $blackColor;
+    padding: 60px 0px;
+  }
+  input {
+    height: 50px;
+    border-radius: 72px;
+    padding: 10px 20px;
+  }
+}
+.helpCenter-section {
+  font-family: Mulish;
+  font-style: normal;
+  h4 {
+    padding-top:50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  h6 {
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom:10px;
+  }
+}

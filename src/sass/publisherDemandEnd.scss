@@ -7,15 +7,14 @@
   .publisher-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 18px;
     align-items: center;
     color: $blackColor;
     letter-spacing: 0.2px;
     ul {
+      padding:60px 0px;
       li {
         list-style: none;
         float: left;
-        margin: 50px 0px;
         button {
           color: $buttonGrey;
           font-size: 14px;
@@ -51,10 +50,8 @@
         color: $blackColor;
       }
       span {
-        background: #c5c5c5;
+        background: $agencyPublisherSpan;
         padding: 2px;
-        width: 24px;
-        height: 24px;
         border-radius: 4px;
         &.active {
           color: $blackColor;
@@ -102,10 +99,9 @@
     }
   }
   .ends {
-    margin: 68px 60px 48px 70px;
+    margin: 60px;
     background: $whiteColor;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
     border: 0px;
     h5 {
       font-weight: bold;
@@ -123,14 +119,11 @@
       color: $buttonGrey;
       font-weight: bold;
       font-size: 14px;
-      align-items: center;
-      text-align: center;
-      letter-spacing: 0.3px;
       background-color: $whiteColor;
       border: 1px solid $buttonGrey;
       width: 180px;
       height: 40px;
-      border-radius: 16px;
+      border-radius: 32px;
     }
   }
 }

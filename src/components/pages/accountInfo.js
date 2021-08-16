@@ -5,16 +5,16 @@ import example from "../../img/example-image.svg";
 function AccountInfo() {
   return (
     <>
-      <div className="account-settings">
+      <div className="account-info">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="settings-title">Hesap Ayarları</div>
+              <div className="info-title">Hesap Ayarları</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="settings-section">
+      <div className="info-section">
         <div className="container">
           <div className="row">
             <div className="col-md-3">

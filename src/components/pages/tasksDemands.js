@@ -9,14 +9,14 @@ import hourglass from "../../img/hourglass.svg";
 import medialogyEcom from "../../img/medialogy-ecom.svg";
 import example from "../../img/example-image.svg";
 
-function HelpCenterDemands() {
+function TasksDemands() {
   return (
     <>
       <div className="helpCenterDemands">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="helpcenter-title">
+              <div className="helpCenterDemands-title">
                 <div className="writing-stage">
                   <img src={settings} />
                   Yazım aşamasında
@@ -37,16 +37,16 @@ function HelpCenterDemands() {
                   </ul>
                 </div>
               </div>
-              <div className="helpCenter-menu col-md-12">
+              <div className="helpCenterDemands-menu col-md-12">
                 <ul className="d-flex justify-content-between">
                   <li className="col-md-4 active">
-                    <Link to="/helpCenterDemands">Talep</Link>
+                    <Link to="/tasksDemands">Talep</Link>
                   </li>
                   <li className="col-md-4">
-                    <Link to="/helpCenterContents">İçerik</Link>
+                    <Link to="/tasksContents">İçerik</Link>
                   </li>
                   <li className="col-md-4">
-                    <Link to="/helpCenterMessages">
+                    <Link to="/tasksMessages">
                       Mesajlar <span>6</span>
                     </Link>
                   </li>
@@ -56,7 +56,7 @@ function HelpCenterDemands() {
           </div>
         </div>
       </div>
-      <div className="helpCenter-content">
+      <div className="helpCenterDemands-content">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
@@ -259,4 +259,4 @@ function HelpCenterDemands() {
   );
 }
 
-export default HelpCenterDemands;
+export default TasksDemands;

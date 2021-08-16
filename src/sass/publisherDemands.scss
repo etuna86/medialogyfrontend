@@ -7,7 +7,6 @@
   .publisher-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 18px;
     align-items: center;
     color: $blackColor;
     letter-spacing: 0.2px;
@@ -30,6 +29,8 @@
   }
 }
 .publisher-menu {
+  font-family: Mulish;
+  font-style: normal;
   ul {
     li {
       margin-top: 98px;
@@ -63,7 +64,7 @@
     }
   }
 }
-.publisher-content {
+.publisherDemands-content {
   font-family: Mulish;
   font-style: normal;
   .article {

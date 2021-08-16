@@ -1,0 +1,119 @@
+.publisher-settings {
+    background: $bodyHeader;
+    font-family: Mulish;
+    font-style: normal;
+    .publisherSettings-title {
+      font-weight: bold;
+      font-size: 32px;
+      color: $blackColor;
+      padding: 60px 0px 70px 0px;
+    }
+  }
+  .publisherSettings-section {
+    margin-top: 70px;
+    font-family: Mulish;
+    font-style: normal;
+    .info {
+      ul {
+        border-right: 1px solid $line;
+        li {
+          list-style: none;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.3px;
+          padding: 22px;
+          text-align:start;
+          a {
+            color: $buttonGrey;
+            text-decoration: none;
+            .active {
+              color:$whiteColor;
+              background: $buttonGrey;
+              width: 160px;
+              height: 40px;
+              border-radius: 32px;
+              text-align: center;
+              padding: 11px;
+            }
+          }
+        }
+      }
+    }
+    .about {
+      ul {
+        li {
+          float: left;
+          list-style: none;
+          padding: 11px 22px 11px 0px;
+          font-size: 20px;
+          color: $blackColor;
+          font-weight: bold;
+          button {
+            border-radius: 16px;
+            color: $buttonGrey;
+            background: $whiteColor;
+            font-size: 14px;
+            border: 1px solid $buttonGrey;
+            width: 80px;
+            height: 34px;
+          }
+        }
+      }
+    }
+    .profile-picture {
+      ul {
+        li {
+          float: left;
+          list-style: none;
+          padding: 11px 100px 11px 0px;
+          font-size: 16px;
+          line-height: 32px;
+          color: $blackColor;
+          font-weight: bold;
+          img {
+            border-radius: 60%;
+            width: 120px;
+            height: 100px;
+          }
+        }
+      }
+    }
+    .username {
+      ul {
+        li {
+          float: left;
+          list-style: none;
+          padding: 11px 100px 11px 0px;
+          font-size: 16px;
+          line-height: 32px;
+          color: $blackColor;
+          font-weight: bold;
+          h6 {
+            padding: 8px;
+            font-weight: normal;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .brief-info {
+      ul {
+        li {
+          float: left;
+          list-style: none;
+          padding: 11px 100px 11px 0px;
+          font-size: 16px;
+          line-height: 32px;
+          color: $blackColor;
+          font-weight: bold;
+          h6 {
+            font-weight: normal;
+            font-size: 14px;
+            padding: 8px 0px 8px 57px;
+          }
+        }
+      }
+    }
+  }
+  

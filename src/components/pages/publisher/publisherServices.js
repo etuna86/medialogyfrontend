@@ -34,7 +34,7 @@ function PublisherServices() {
               </h6>
               <hr></hr>
               <div>
-                <ul>
+                <ul className="d-flex align-items-center justify-content-center">
                   <li>
                     <Link to="/publisherDemands">
                       <figure className="col-md-6">

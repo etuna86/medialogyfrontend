@@ -1,32 +1,28 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import Updates from "../../../img/updates.svg";
-import openDemands from "../../../img/open-demand.svg";
-import MedialogyEcom from "../../../img/medialogy-ecom.svg";
-import publisherIcon from "../../../img/publisher-icon.svg";
-import Hourglass from "../../../img/hourglass.svg";
-import close from "../../../img/close.svg";
+import Updates from "../../img/updates.svg";
+import openDemands from "../../img/open-demand.svg";
+import MedialogyEcom from "../../img/medialogy-ecom.svg";
+import publisherIcon from "../../img/publisher-icon.svg";
+import Hourglass from "../../img/hourglass.svg";
+import close from "../../img/close.svg";
 
-function AgencyPublisher() {
+function EditorDashboard() {
   return (
     <>
-      <div className="agencyPublisher-page">
+      <div className="editorDashboard-page">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <ul className="d-flex justify-content-between">
-                <li>
-                  <div className="agencyPublisher-title">Yayıncı Adı</div>
-                </li>
-                <li>
-                  <button>Yayıncı Ayarları</button>
-                  <Link to="/publisherServices">
-                    <button>Yeni İçerik İsteği</button>
-                  </Link>
-                </li>
-              </ul>
+              <div className="editorDashboard-title">
+                Editor Dashboard
+                <h6>
+                  Lobortis sed dolor tellus sem integer sit tempor. Metus, nibh
+                  lacus arcu mauris nibh adipiscing bibendum iaculis.
+                </h6>
+              </div>
             </div>
-            <div className="agencyPublisher-menu">
+            <div className="editorDashboard-menu">
               <ul className="d-flex align-items-center">
                 <li className="col-3 active">
                   <a>
@@ -35,17 +31,17 @@ function AgencyPublisher() {
                 </li>
                 <li className="col-3">
                   <a>
-                    Açık Talepler <span>6</span>
+                    Editör Onayı Bekleyen <span>6</span>
                   </a>
                 </li>
                 <li className="col-3">
                   <a>
-                    Onay Bekleyenler <span>6</span>
+                    Yayıncı Onayı Bekleyen <span>6</span>
                   </a>
                 </li>
                 <li className="col-3">
                   <a>
-                    Tamamlananlar <span>6</span>
+                    Açık Düzenleme Taleplerim <span>6</span>
                   </a>
                 </li>
               </ul>
@@ -53,7 +49,7 @@ function AgencyPublisher() {
           </div>
         </div>
       </div>
-      <div className="agencyPublisher-section">
+      <div className="editorDashboard-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -103,10 +99,10 @@ function AgencyPublisher() {
               </div>
             </div>
           </div>
-          <div className="agencyPublisher-box">
+          <div className="task-box">
             <div className="row">
               <div className="col-md-9">
-                <div className="agencyPublisher-box-article">
+                <div className="task-box-article">
                   <a>
                     <Link to="tasksDemands">
                       Convallis sapien, euismod sit magna dolor mattis
@@ -114,13 +110,13 @@ function AgencyPublisher() {
                     </Link>
                   </a>
                 </div>
-                <div className="agencyPublisher-box-content">
+                <div className="task-box-content">
                   Dis diam etiam facilisis maecenas iaculis. At odio sed tortor
                   ultrices aliquam eros, quam malesuada. Morbi lorem lobortis
                   eget tempus. Ipsum vel pretium mattis curabitur eleifend etiam
                   sed consectetur ut. Facilisi sem ipsum, amet purus ...
                 </div>
-                <div className="agencyPublisher-box-buttons">
+                <div className="task-box-buttons">
                   <ul className="align-items-start">
                     <li>
                       <button>Label 1</button>
@@ -135,7 +131,7 @@ function AgencyPublisher() {
                 </div>
               </div>
               <div className="col-md-3 align-items-center">
-                <div className="agencyPublisher-box-items">
+                <div className="task-box-items">
                   <ul className="d-flex align-items-start list-group">
                     <li>
                       <a>
@@ -172,10 +168,10 @@ function AgencyPublisher() {
               </div>
             </div>
           </div>
-          <div className="agencyPublisher-box">
+          <div className="task-box">
             <div className="row">
               <div className="col-md-9">
-                <div className="agencyPublisher-box-article">
+                <div className="task-box-article">
                   <a>
                     <Link to="tasksDemands">
                       Convallis sapien, euismod sit magna dolor mattis
@@ -183,13 +179,13 @@ function AgencyPublisher() {
                     </Link>
                   </a>
                 </div>
-                <div className="agencyPublisher-box-content">
+                <div className="task-box-content">
                   Dis diam etiam facilisis maecenas iaculis. At odio sed tortor
                   ultrices aliquam eros, quam malesuada. Morbi lorem lobortis
                   eget tempus. Ipsum vel pretium mattis curabitur eleifend etiam
                   sed consectetur ut. Facilisi sem ipsum, amet purus ...
                 </div>
-                <div className="agencyPublisher-box-buttons">
+                <div className="task-box-buttons">
                   <ul className="align-items-start">
                     <li>
                       <button>Label 1</button>
@@ -203,8 +199,8 @@ function AgencyPublisher() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3 align-items-center d-flex">
-                <div className="agencyPublisher-box-items">
+              <div className="col-md-3 align-items-center">
+                <div className="task-box-items">
                   <ul className="d-flex align-items-start list-group">
                     <li>
                       <a>
@@ -247,4 +243,4 @@ function AgencyPublisher() {
   );
 }
 
-export default AgencyPublisher;
+export default EditorDashboard;

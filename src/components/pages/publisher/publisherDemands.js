@@ -26,7 +26,7 @@ function PublisherDemands() {
           </div>
         </div>
       </div>
-      <div className="publisher-content">
+      <div className="publisherDemands-content">
         <div className="container">
           <div className="row">
             <div className="col-md-3">

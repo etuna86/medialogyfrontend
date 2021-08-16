@@ -8,15 +8,14 @@ import threePoints from "../../img/three-points.svg";
 import smile from "../../img/smile.svg";
 import close from "../../img/close-helpcenter.svg";
 
-
-function HelpCenterMessages() {
+function TasksMessages() {
   return (
     <>
-      <div className="helpcenter-page">
+      <div className="helpcenterMessages-page">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="helpcenter-title">
+              <div className="helpcenterMessages-title">
                 <div className="writing-stage">
                   <img src={settings} />
                   Yazım aşamasında
@@ -24,7 +23,8 @@ function HelpCenterMessages() {
                 <div className="alert-section">
                   <ul className="align-items-center d-flex bd-highlight col-md-12">
                     <li className="p-2 flex-grow-1 bd-highlight">
-                      {" "}<img src={close} />
+                      {" "}
+                      <img src={close} />
                       Talep Başlığı{" "}
                     </li>
                     <li className="p-2 bd-highlight">
@@ -40,16 +40,16 @@ function HelpCenterMessages() {
                   </ul>
                 </div>
               </div>
-              <div className="helpCenter-menu col-md-12">
+              <div className="helpcenterMessages-menu col-md-12">
                 <ul className="d-flex justify-content-between">
                   <li className="col-4">
-                    <Link to="/helpCenterDemands">Talep</Link>
+                    <Link to="/tasksDemands">Talep</Link>
                   </li>
                   <li className="col-4">
-                    <Link to="/helpCenterContents">İçerik</Link>
+                    <Link to="/tasksContents">İçerik</Link>
                   </li>
                   <li className="col-4 active">
-                    <Link to="/helpCenterMessages">
+                    <Link to="/tasksMessages">
                       Mesajlar <span>6</span>
                     </Link>
                   </li>
@@ -81,18 +81,16 @@ function HelpCenterMessages() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 messages-contents-article">
-                <div className="d-flex align-items-center">
-                  <ul className="d-flex justify-content-between">
-                    <li>
-                      <img src={circle} />
-                      Username <span>Time</span>
-                    </li>
-                    <li>
-                      <img src={smile} className="smile" />
-                      <img src={threePoints} />
-                    </li>
-                  </ul>
-                </div>
+                <ul className="d-flex justify-content-between">
+                  <li>
+                    <img src={circle} />
+                    Username <span>Time</span>
+                  </li>
+                  <li>
+                    <img src={smile} className="smile" />
+                    <img src={threePoints} />
+                  </li>
+                </ul>
                 <div className="col-md-12 content">
                   Convallis accumsan sed nisl condimentum aliquam sed fusce sed
                   elit. Diam egestas commodo proin potenti orci, etiam ligula
@@ -111,18 +109,16 @@ function HelpCenterMessages() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 messages-contents-article">
-                <div className="align-items-center">
-                  <ul className="d-flex justify-content-between">
-                    <li>
-                      <img src={circle} />
-                      Username <span>Time</span>
-                    </li>
-                    <li>
-                      <img src={smile} className="smile" />
-                      <img src={threePoints} />
-                    </li>
-                  </ul>
-                </div>
+                <ul className="d-flex justify-content-between">
+                  <li>
+                    <img src={circle} />
+                    Username <span>Time</span>
+                  </li>
+                  <li>
+                    <img src={smile} className="smile" />
+                    <img src={threePoints} />
+                  </li>
+                </ul>
                 <div className="col-md-12 content">
                   Libero eget sed pretium bibendum orci leo, ipsum pellentesque
                   risus. Mollis praesent pharetra condimentum vel nisl. Enim
@@ -147,4 +143,4 @@ function HelpCenterMessages() {
   );
 }
 
-export default HelpCenterMessages;
+export default TasksMessages;

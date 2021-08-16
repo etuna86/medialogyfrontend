@@ -6,9 +6,7 @@
   ul {
     li {
       list-style: none;
-      padding: 10px;
       .dashboard-title {
-        height: 32px;
         font-family: Mulish;
         font-style: normal;
         font-weight: bold;
@@ -16,7 +14,7 @@
         line-height: 32px;
         letter-spacing: 0.2px;
         color: $blackColor;
-        margin-top: 55px;
+        padding-top: 60px;
       }
       .dashboard-content {
         font-weight: normal;
@@ -40,7 +38,6 @@
     }
   }
   .agency-publishers {
-    padding: 10px;
     h5 {
       font-weight: bold;
       font-size: 32px;
@@ -55,8 +52,6 @@
         li {
           list-style: none;
           float: left;
-          padding: 0px;
-          margin: 0px;
           button {
             width: 151px;
             height: 40px;
@@ -89,16 +84,14 @@
       }
     }
   }
-  .see-all{
+  .see-all {
     align-items: center;
-    button{
-      color:$buttonGrey;
+    button {
+      color: $buttonGrey;
       background-color: $whiteColor;
       border: 1px solid $buttonGrey;
       border-radius: 16px;
-      align-items: center;
-      text-align:center;
-      padding:5px;
+      padding: 5px;
     }
   }
 }

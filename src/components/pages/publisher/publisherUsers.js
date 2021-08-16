@@ -36,73 +36,72 @@ function PublisherUsers() {
                   </li>
                   <li>
                     <a>
-                      <Link to="/signinMethod">Planınızı Yükseltin</Link>
+                      <Link to="/publisherPlans">Planınızı Yükseltin</Link>
                     </a>
                   </li>
                   <li>
                     <a>
-                      <Link to="/notifications">Ödeme Yöntemi</Link>
+                      <Link to="/publisherPayment">Ödeme Yöntemi</Link>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-md-5 d-flex justify-content-start users">
-              <ul>
-                <li>
-                  <img src={publisherUsers} />
-                  Brooklyn Simmons
-                </li>
-                <li>
-                  <img src={publisherUsers} />
-                  Guy Hawkins
-                </li>
-                <li>
-                  <img src={publisherUsers} />
-                  Albert Flores
-                </li>
-                <li>
-                  <img src={publisherUsers} />
-                  Savannah Nguyen
-                </li>
-                <li>
-                  <img src={publisherUsers} />
-                  Theresa Webb
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-4 d-flex justify-content-end users-titles">
-              <ul>
-                <li>
-                  <button>
-                    Owner <img src={upDown} />
-                  </button>
-                </li>
-                <li>
-                  <button>
-                    Yönetici
-                    <img src={upDown} />
-                  </button>
-                </li>
-                <li>
-                  <button>
-                    Yönetici
-                    <img src={upDown} />
-                  </button>
-                </li>
-                <li>
-                  <button>
-                    Yorumcu
-                    <img src={upDown} />
-                  </button>
-                </li>
-                <li>
-                  <button>
-                    Yorumcu
-                    <img src={upDown} />
-                  </button>
-                </li>
-              </ul>
+            <div className="col-md-9 users-table">
+              <div className="d-flex justify-content-between">
+                  <table>
+                    <tr>
+                      <td colspan="2">
+                        <img src={publisherUsers} /> Brooklyn Simmons
+                      </td>
+                      <td>
+                        <button>
+                          Owner <img src={upDown} />
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <img src={publisherUsers} /> Guy Hawkins
+                      </td>
+                      <td>
+                        <button>
+                          Yönetici <img src={upDown} />
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <img src={publisherUsers} /> Albert Flores
+                      </td>
+                      <td>
+                        <button>
+                          Yönetici <img src={upDown} />
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <img src={publisherUsers} /> Savannah Nguyen
+                      </td>
+                      <td>
+                        <button>
+                          Yorumcu <img src={upDown} />
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <img src={publisherUsers} /> Theresa Webb
+                      </td>
+                      <td>
+                        <button>
+                          Yorumcu <img src={upDown} />
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
             </div>
           </div>
         </div>

@@ -5,16 +5,16 @@ import example from "../../img/example-image.svg";
 function PersonalInfo() {
   return (
     <>
-      <div className="account-settings">
+      <div className="personal-info">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="settings-title">Hesap Ayarları</div>
+              <div className="personal-info-title">Hesap Ayarları</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="settings-section">
+      <div className="personal-info-section">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
@@ -63,7 +63,9 @@ function PersonalInfo() {
                 <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
                     <li className="flex-shrink-1 bd-highlight">Tam İsim</li>
-                    <li className="bd-highlight"><h6>Jonathan Davis</h6></li>
+                    <li className="bd-highlight">
+                      <h6>Jonathan Davis</h6>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -71,7 +73,9 @@ function PersonalInfo() {
                 <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
                     <li className="flex-shrink-1 bd-highlight">Telefon</li>
-                    <li className=" bd-highlight"><h6>90 554 123 12 12</h6></li>
+                    <li className=" bd-highlight">
+                      <h6>90 554 123 12 12</h6>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -79,9 +83,10 @@ function PersonalInfo() {
                 <div className="personal-info-titles">
                   <ul className="d-flex bd-highligh">
                     <li className="flex-shrink-1 bd-highlight">Adres</li>
-                    <li className="bd-highlight"><h6>
-                      Cumhuriyet Mh. Aşık Veysel Cd. 112 / 27 İstanbul,
-                      Kucukcekmece, TR
+                    <li className="bd-highlight">
+                      <h6>
+                        Cumhuriyet Mh. Aşık Veysel Cd. 112 / 27 İstanbul,
+                        Kucukcekmece, TR
                       </h6>
                     </li>
                   </ul>

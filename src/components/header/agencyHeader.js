@@ -8,7 +8,7 @@ import settings from "../../img/settings.svg";
 import mainPage from "../../img/main-page.svg";
 import triangle from "../../img/triangle.svg";
 
-function Header() {
+function AgencyHeader() {
   return (
     <div className="header">
       <div className="container">
@@ -23,7 +23,7 @@ function Header() {
               <ul>
                 <li className="active"><Link to="/"><img src={LogoIcon} />Talepler</Link></li>
                 <li><Link to="/tasks"><img src={LogoIcon} />Görevlerim</Link></li>
-                <li><Link to="/helpCenter"><img src={LogoIcon} />Yardım Merkezi</Link></li>
+                <li><Link to="/helpCenterDemands"><img src={LogoIcon} />Yardım Merkezi</Link></li>
               </ul>
             </div>
           </div>
@@ -42,4 +42,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default AgencyHeader;

@@ -19,16 +19,24 @@ function Tasks() {
             <div className="tasks-menu">
               <ul className="d-flex align-items-center">
                 <li className="col-3 active">
-                  <a>Tümü <span>16</span></a>
+                  <a>
+                    Tümü <span>16</span>
+                  </a>
                 </li>
                 <li className="col-3">
-                  <a>Üretim Aşamasında <span>6</span></a>
+                  <a>
+                    Üretim Aşamasında <span>6</span>
+                  </a>
                 </li>
                 <li className="col-3">
-                  <a>Gelen Düzenleme İstekleri <span>6</span></a>
+                  <a>
+                    Gelen Düzenleme İstekleri <span>6</span>
+                  </a>
                 </li>
                 <li className="col-3">
-                  <a>Onay Beklediklerim <span>6</span></a>
+                  <a>
+                    Onay Beklediklerim <span>6</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -55,25 +63,46 @@ function Tasks() {
             </div>
           </div>
           <div className="row">
-              <div className="container">
-                <div className="col-md-12">
-                    <div className="filter-bar">
-                        <ul className="d-flex align-items-center">                            
-                            <li className="justify-content-start">Uygulanan Filteler</li>
-                            <li><button>Filtre 1 <img src={close} /></button></li>
-                            <li><button>Filtre 2 <img src={close} /></button></li>
-                            <li><button>Filtre 3 <img src={close} /></button></li>
-                            <li><a>Filtreleri temizle</a></li>
-                        </ul>
-                    </div>
+            <div className="container">
+              <div className="col-md-12">
+                <div className="filter-bar">
+                  <ul className="d-flex align-items-center">
+                    <li className="justify-content-start">
+                      Uygulanan Filteler
+                    </li>
+                    <li>
+                      <button>
+                        Filtre 1 <img src={close} />
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Filtre 2 <img src={close} />
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Filtre 3 <img src={close} />
+                      </button>
+                    </li>
+                    <li>
+                      <a>Filtreleri temizle</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
+            </div>
           </div>
           <div className="task-box">
             <div className="row">
               <div className="col-md-9">
                 <div className="task-box-article">
-                  Convallis sapien, euismod sit magna dolor mattis condimentum.
+                  <a>
+                    <Link to="tasksDemands">
+                      Convallis sapien, euismod sit magna dolor mattis
+                      condimentum.
+                    </Link>
+                  </a>
                 </div>
                 <div className="task-box-content">
                   Dis diam etiam facilisis maecenas iaculis. At odio sed tortor
@@ -137,7 +166,12 @@ function Tasks() {
             <div className="row">
               <div className="col-md-9">
                 <div className="task-box-article">
-                  Convallis sapien, euismod sit magna dolor mattis condimentum.
+                  <a>
+                    <Link to="tasksDemands">
+                      Convallis sapien, euismod sit magna dolor mattis
+                      condimentum.
+                    </Link>
+                  </a>
                 </div>
                 <div className="task-box-content">
                   Dis diam etiam facilisis maecenas iaculis. At odio sed tortor

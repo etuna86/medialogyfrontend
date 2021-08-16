@@ -14,17 +14,39 @@ function AccountSettings() {
           </div>
         </div>
       </div>
-      <div className="settings-section">
+      <div className="accountsettings-section">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
               <div className="info">
                 <ul>
-                  <li><a><Link to="/accountSettings"><div className="active">Profil Bilgileri</div></Link></a></li>
-                  <li><a><Link to="/personalInfo">Kişisel Bilgiler</Link></a></li>
-                  <li><a><Link to="/signinMethod">Giriş Yöntemi</Link></a></li>
-                  <li><a><Link to="/notifications">Bildirimler</Link></a></li>
-                  <li><a><Link to="/accountInfo">Hesap Bilgileri</Link></a></li>
+                  <li>
+                    <a>
+                      <Link to="/accountSettings">
+                        <div className="active">Profil Bilgileri</div>
+                      </Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <Link to="/personalInfo">Kişisel Bilgiler</Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <Link to="/signinMethod">Giriş Yöntemi</Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <Link to="/notifications">Bildirimler</Link>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <Link to="/accountInfo">Hesap Bilgileri</Link>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

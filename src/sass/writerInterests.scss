@@ -5,9 +5,8 @@
   .settings-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 32px;
     color: $blackColor;
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px;
   }
 }
 .interests-section {
@@ -50,8 +49,6 @@
         figure {
           figcaption {
             text-align: center;
-            font-family: Mulish;
-            font-style: normal;
             font-weight: bold;
             font-size: 14px;
             color: $blackColor;

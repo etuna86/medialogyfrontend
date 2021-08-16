@@ -5,17 +5,18 @@ import alert from "../../img/alert.svg";
 import history from "../../img/history.svg";
 import close from "../../img/close-helpcenter.svg";
 import example from "../../img/example-image.svg";
+import settings from "../../img/settings-bold.svg";
 
-function HelpCenterContents() {
+function TasksContents() {
   return (
     <>
       <div className="helpCenterContents">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="helpcenter-title">
+              <div className="helpCenterContents-title">
                 <div className="writing-stage">
-                  <img src={info} />
+                  <img src={settings} />
                   Üretim aşamasında
                 </div>
                 <div className="alert-section">
@@ -34,16 +35,16 @@ function HelpCenterContents() {
                   </ul>
                 </div>
               </div>
-              <div className="helpCenter-menu col-md-12">
+              <div className="helpCenterContents-menu col-md-12">
                 <ul className="d-flex justify-content-between">
                   <li className="col-4">
-                    <Link to="/helpCenterDemands">Talep</Link>
+                    <Link to="/tasksDemands">Talep</Link>
                   </li>
                   <li className="col-4 active">
-                      <Link to="/helpCenterContents">İçerik </Link>
+                      <Link to="/tasksContents">İçerik </Link>
                   </li>
                   <li className="col-4">
-                    <Link to="/helpCenterMessages">
+                    <Link to="/tasksMessages">
                       Mesajlar <span>6</span>
                     </Link>
                   </li>
@@ -164,4 +165,4 @@ function HelpCenterContents() {
   );
 }
 
-export default HelpCenterContents;
+export default TasksContents;

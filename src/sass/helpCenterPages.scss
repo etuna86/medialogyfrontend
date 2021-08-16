@@ -1,0 +1,83 @@
+.helpCenterPages {
+  z-index: 12;
+  position: relative;
+  background: $bodyHeader;
+  font-family: Mulish;
+  font-style: normal;
+  .helpCenter-title {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    color: $blackColor;
+    padding: 60px 0px;
+    h6 {
+      font-weight: 600;
+      font-size: 12px;
+      color: $blackColor;
+    }
+  }
+}
+.helpCenterPages-contents {
+  font-family: Mulish;
+  font-style: normal;
+  padding: 50px 0px;
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: $buttonGrey;
+    padding-right: 50px;
+  }
+  form {
+    input {
+      border-radius: 36px;
+      box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.1);
+    }
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: $blackColor;
+    padding: 10px 0px;
+  }
+  h6 {
+    font-weight: bold;
+    font-size: 14px;
+    color: $buttonGrey;
+    padding: 5px 0px;
+  }
+  a {
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 12px;
+    color: $buttonGrey;
+  }
+  .helpCenter-buttons {
+    ul {
+      li {
+        list-style: none;
+        float: left;
+        h6 {
+          color: $buttonGrey;
+          font-weight: bold;
+          font-size: 14px;
+          padding-top: 10px;
+        }
+      }
+      :last-child {
+        button {
+          border: none;
+          background: $buttonGrey;
+          color: $whiteColor;
+          border-radius: 32px;
+          width: 187px;
+          height: 40px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

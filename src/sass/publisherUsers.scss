@@ -5,18 +5,18 @@
   .users-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 32px;
     color: $blackColor;
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px;
   }
 }
 .users-section {
-  margin-top: 70px;
   font-family: Mulish;
   font-style: normal;
   .info {
+    padding: 20px;
     ul {
       border-right: 1px solid $line;
+      padding: 20px;
       li {
         list-style: none;
         font-weight: bold;
@@ -41,28 +41,20 @@
       }
     }
   }
-  .users {
-    ul {
-      li {
-        list-style: none;
-      }
-    }
-  }
-  .users-titles {
-    ul {
-      padding: 15px 0px;
-      li {
-        list-style: none;
-        button {
-          padding: 8px 8px 8px 16px;
-          border-radius: 32px;
-          background: $usersButton;
-          width: 108px;
-          height: 32px;
-          align-items: center;
-          border: 0px;
-          font-weight: bold;
-          font-size: 14px;
+  .users-table {
+    table {
+      width: 100%;
+      tr {
+        td {
+          padding: 20px 0px 0px 10px;
+          button {
+            border-radius: 16px;
+            border: none;
+            background: $usersButton;
+            color: $blackColor;
+            width: 108px;
+            height: 32px;
+          }
         }
       }
     }

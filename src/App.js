@@ -9,12 +9,13 @@ let customHistory = createBrowserHistory();
 import logo from "./logo.svg";
 
 import Header from "./components/header";
+import AgencyHeader from "./components/header/agencyHeader";
 import Footer from "./components/footer/footer.js";
 import Home from "./components/pages/demands.js";
 import Tasks from "./components/pages/tasks.js";
-import HelpCenterDemands from "./components/pages/helpCenterDemands.js";
-import HelpCenterMessages from "./components/pages/helpCenterMessages.js";
-import HelpCenterContents from "./components/pages/helpCenterContents.js";
+import TasksDemands from "./components/pages/tasksDemands.js";
+import TasksMessages from "./components/pages/tasksMessages.js";
+import TasksContents from "./components/pages/tasksContents.js";
 import Earnings from "./components/pages/earnings.js";
 import AccountSettings from "./components/pages/accountSettings.js";
 import PersonalInfo from "./components/pages/personalInfo.js";
@@ -38,6 +39,11 @@ import PublisherSettings from "./components/pages/publisher/publisherSettings";
 import PublisherUsers from "./components/pages/publisher/publisherUsers";
 import AgencyDashboard from "./components/pages/agency/agencyDashboard";
 import AgencyPublisher from "./components/pages/agency/agencyPublisher";
+import AgencyExperience from "./components/pages/agency/agencyExperience";
+import PublisherPlans from "./components/pages/publisher/publisherPlans";
+import HelpCenter from "./components/pages/helpCenter";
+import HelpCenterPages from "./components/pages/helpCenterPages";
+import EditorDashboard from "./components/pages/editorDashboard";
 
 
 class App extends Component {
@@ -58,14 +64,20 @@ class App extends Component {
             <Route path="/tasks">
               <Tasks />
             </Route>
-            <Route path="/helpCenterDemands">
-              <HelpCenterDemands />
+            <Route path="/helpCenter">
+              <HelpCenter />
             </Route>
-            <Route path="/helpCenterMessages">
-              <HelpCenterMessages />
+            <Route path="/helpCenterPages">
+              <HelpCenterPages />
             </Route>
-            <Route path="/helpCenterContents">
-              <HelpCenterContents />
+            <Route path="/tasksDemands">
+              <TasksDemands />
+            </Route>
+            <Route path="/tasksMessages">
+              <TasksMessages />
+            </Route>
+            <Route path="/tasksContents">
+              <TasksContents />
             </Route>
             <Route path="/earnings">
               <Earnings />
@@ -74,67 +86,76 @@ class App extends Component {
               <AccountSettings />
             </Route>
             <Route path="/personalInfo">
-                <PersonalInfo />
+              <PersonalInfo />
             </Route>
             <Route path="/signinMethod">
-                <SignInMethod />
+              <SignInMethod />
             </Route>
             <Route path="/notifications">
-                <Notifications />
+              <Notifications />
             </Route>
             <Route path="/accountInfo">
-                <AccountInfo />
+              <AccountInfo />
             </Route>
             <Route path="/writerSettings">
-                <WriterSettings />
+              <WriterSettings />
             </Route>
             <Route path="/interests">
-                <Interests />
+              <Interests />
             </Route>
             <Route path="/publisherDemands">
-                <PublisherDemands />
+              <PublisherDemands />
             </Route>
             <Route path="/publisherModel">
-                <PublisherModel />
+              <PublisherModel />
             </Route>
             <Route path="/publisherPriorKnowledge">
-                <PublisherPriorKnowledge />
+              <PublisherPriorKnowledge />
             </Route>
             <Route path="/publisherDetails">
-                <PublisherDetails />
+              <PublisherDetails />
             </Route>
             <Route path="/publisherReferences">
-                <References />
+              <References />
             </Route>
             <Route path="/publisherServices">
-                <PublisherServices />
+              <PublisherServices />
             </Route>
             <Route path="/publisherImgUse">
-                <PublisherImgUse />
+              <PublisherImgUse />
             </Route>
             <Route path="/publisherNumber">
-                <PublisherNumber />
+              <PublisherNumber />
             </Route>
             <Route path="/publisherPayment">
-                <PublisherPayment />
+              <PublisherPayment />
             </Route>
             <Route path="/publisherDemandEnd">
-                <PublisherDemandEnd />
+              <PublisherDemandEnd />
             </Route>
             <Route path="/writerExperience">
-                <WriterExperience />
+              <WriterExperience />
             </Route>
             <Route path="/publisherSettings">
-                <PublisherSettings />
+              <PublisherSettings />
             </Route>
             <Route path="/publisherUsers">
-                <PublisherUsers />
+              <PublisherUsers />
+            </Route>
+            <Route path="/publisherPlans">
+              <PublisherPlans />
             </Route>
             <Route path="/agencyDashboard">
-                <AgencyDashboard />
+              <AgencyDashboard />
             </Route>
             <Route path="/agencyPublisher">
-                <AgencyPublisher />
+              <AgencyPublisher />
+            </Route>
+            <Route path="/agencyExperience">
+              <AgencyExperience />
+            </Route>
+            <Route path="/editorDashboard">
+              <EditorDashboard />
             </Route>
           </Switch>
           <Footer />

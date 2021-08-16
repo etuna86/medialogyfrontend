@@ -5,9 +5,8 @@
   .settings-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 32px;
     color: $blackColor;
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px;
   }
 }
 .settings-section {
@@ -60,20 +59,16 @@
       }
     }
   }
-  .writer-info-titles {
-    ul {
-      li {
-        padding-top:20px;
-        list-style: none;
-        font-size: 16px;
-        line-height: 32px;
+  table {
+    tr {
+      td {
+        padding: 20px 40px;
         color: $blackColor;
-        font-weight: bold;
-        text-align: start;
-        h6 {
-          font-weight: normal;
-          font-size: 14px;
-          padding:7px 90px 7px 100px;
+        font-weight: normal;
+        font-size: 14px;
+        &:first-child {
+          font-weight: bold;
+          font-size: 16px;
         }
       }
     }

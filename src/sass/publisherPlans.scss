@@ -1,27 +1,30 @@
-.notifications-settings {
+.publisherPlans {
   background: $bodyHeader;
   font-family: Mulish;
   font-style: normal;
-  .notifications-title {
+  .plans-title {
     font-weight: bold;
     font-size: 32px;
     color: $blackColor;
     padding: 60px 0px;
   }
 }
-.notifications-section {
-  margin-top: 70px;
+.plans-section {
   font-family: Mulish;
   font-style: normal;
   .info {
+    padding: 20px;
     ul {
       border-right: 1px solid $line;
+      padding: 20px;
       li {
         list-style: none;
         font-weight: bold;
         font-size: 14px;
+        line-height: 18px;
         letter-spacing: 0.3px;
         padding: 22px;
+        text-align: start;
         a {
           color: $buttonGrey;
           text-decoration: none;
@@ -38,21 +41,38 @@
       }
     }
   }
-  .notification-items {
-    padding: 10px 22px 15px 0px;
-    letter-spacing: 0.2px;
+  .plan-options {
+    padding: 40px 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border-top: none;
+    text-align: center;
+    width: 249px;
+    height: 300px;
+    margin: 15px;
     color: $blackColor;
-    h5 {
+    .plan-title {
+      font-size: 18px;
       font-weight: bold;
-      font-size: 16px;
-      padding-bottom: 10px;
-      padding-top: 12px;
+      padding: 5px;
     }
-    h6 {
+    .plan-features {
+      padding: 5px;
       font-weight: normal;
       font-size: 14px;
-      line-height: 20px;
-      padding-bottom: 22px;
+    }
+    button {
+      border-radius: 32px;
+      background: $buttonGrey;
+      color: $whiteColor;
+      border: none;
+      height: 36px;
+      width: 120px;
+      &.active {
+        color: $buttonGrey;
+        background: $whiteColor;
+        border: 1px solid $buttonGrey;
+      }
     }
   }
 }

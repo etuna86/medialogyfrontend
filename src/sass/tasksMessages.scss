@@ -1,18 +1,18 @@
-.helpcenter-page {
+.helpcenterMessages-page {
   background: $bodyHeader;
   z-index: 12;
   position: relative;
   flex-grow: 1;
+  font-family: Mulish;
+  font-style: normal;
   .writing-stage {
     border-radius: 16px;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin: 50px 0px 0px 32px;
+    margin-top: 50px;
     font-weight: normal;
     font-size: 10px;
-    line-height: 22px;
-    letter-spacing: 0.2px;
     color: $buttonGrey;
     background: $demandBoxButton;
     width: 140px;
@@ -20,12 +20,9 @@
       padding: 5px;
     }
   }
-  .helpcenter-title {
-    font-family: Mulish;
-    font-style: normal;
+  .helpcenterMessages-title {
     font-weight: bold;
     font-size: 32px;
-    line-height: 18px;
     align-items: center;
     color: $blackColor;
     height: 32px;
@@ -35,28 +32,53 @@
       ul {
         li {
           list-style: none;
-          float: left;
+        }
+      }
+    }
+  }
+  .helpcenterMessages-menu {
+    ul {
+      li {
+        padding-top: 90px;
+        font-weight: 600;
+        font-size: 14px;
+        list-style: none;
+        text-align: center;
+        &.active {
+          border-bottom: 4px solid $blackColor;
+          border-radius: 2px;
+          color: $blackColor;
+        }
+        a {
+          text-decoration: none;
+          color: $tasksMenu;
+        }
+        span {
+          background: #c5c5c5;
+          padding: 2px;
+          border-radius: 4px;
+          &.active {
+            color: $blackColor;
+          }
         }
       }
     }
   }
 }
 .helpCenterMessages {
+  font-family: Mulish;
+  font-style: normal;
   .messages-submit {
     background: $messagesSubmit;
-    align-items: center;
-    margin: 24px 8px 4px 20px;
+    margin: 10px 0px;
     border-radius: 8px;
     ul {
       li {
         padding: 16px;
         list-style: none;
         float: left;
-        font-family: Mulish;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 12px;
         letter-spacing: 0.2px;
         button {
           align-items: center;
@@ -72,26 +94,16 @@
     }
   }
   .helpCenterMessages-content {
-    width:100%;
+    margin-bottom: 10px;
     .messages-contents-article {
       background: $bodyHeader;
-      justify-content: space-between;
-      align-items: center;
-      margin: 8px;
       border-radius: 8px;
-      padding:10px;
-      text-align: center;
       ul {
         li {
           padding: 16px;
           list-style: none;
-          float: left;
-          font-family: Mulish;
-          font-style: normal;
           font-weight: bold;
           font-size: 14px;
-          line-height: 12px;
-          letter-spacing: 0.2px;
           img {
             padding-right: 14px;
           }
@@ -103,7 +115,7 @@
     }
   }
   .content {
-    padding:9px 16px 16px 64px;
-    text-align:left;
+    padding: 9px 16px 16px 64px;
+    text-align: left;
   }
 }
